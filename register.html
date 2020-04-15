@@ -1,0 +1,76 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <style>
+        label{
+            font-size: x-large;
+        }
+        div { 
+    animation: fadeInAnimation ease-in 1s;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+} 
+  
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
+    </style>
+</head>
+<body>
+<div style="height: fit-content; width:fit-content; padding-top: 20px; padding-left: 20px; padding-right: 20px;">
+<h1>Register here!</h1>
+<form style="font-size: 22px; "action="insert.php" method="post">
+    <table>
+    <tr>
+    <td>
+        <label for="firstName">First Name:</label>
+    </td>
+    <td>
+        <input type="text" name="fname" id="firstName" required>
+    </td>
+    </tr>
+    <tr>
+    <td>
+        <label for="lastName">Last Name: </label>
+    </td>
+    <td>
+        <input type="text" name="lname" id="lastName">
+    </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="emailAddress">Email:</label>
+        </td>
+        <td>
+            <input type="text" name="email" id="emailAddress" required>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="username">Username:</label>
+        </td>
+        <td>
+            <input type="text" name="user" id="username" required>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="password">Password:</label>
+        </td>
+        <td>
+            <input type="text" name="pass" id="password" required>
+        </td>
+    </tr>
+    </table>
+    <br/>
+    <input class="button button1" type="submit" value="Register">
+    
+</form>
+</div>
+</body>
+</html>

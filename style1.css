@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+@import url('https://fonts.googleapis.com/css?family=Actor');
+@import url('https://fonts.googleapis.com/css?family=Crafty+Girls');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+h1{
+    font-family: 'Sofia', cursive;
+}
+
+h2{
+  font-family: 'Sacramento', cursive;
+}
+
+h3{
+  font-family: 'Sacramento', cursive;
+}
+
+
+h4{
+    font-family: 'Crafty Girls', cursive;
+}
+
+
+body {
+    background-image: url("img4.jpg");
+   font-family: 'Muli';
+   font-size: 22px;
+   color:aliceblue;
+   text-align: center;
+  }
+  div {
+    background-color:rgba(131, 1, 95, 0.7); 
+    width: fit-content;
+    height: fit-content;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);;
+  }
+ .button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  width: 125px;
+  height: 50px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+
+  background-color: white; 
+  color: black; 
+  border: 2px solid rgb(255, 236, 0);
+}
+
+.button1:hover {
+  background-color: rgb(255, 236, 0);
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid rgb(255, 145, 0);
+}
+
+.button2:hover {
+  background-color: rgb(255, 145, 0);
+  color: white;
+}
+
+.button3 {
+
+  width: 250px;
+  background-color: white; 
+  color: black; 
+  border: 2px solid rgb(255, 20, 0);
+}
+
+.button3:hover {
+  background-color: rgb(255, 20, 0);
+  color: white;
+}

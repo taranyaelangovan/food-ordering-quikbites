@@ -1,0 +1,25 @@
+#sel-form {
+  background: #f2f2f2;
+  border: 1px solid #aaa;
+  padding: 10px;
+  max-width: 300px;
+}
+#sel-form, #sel-form input, #sel-form select {
+  font-family: arial;
+  font-size: 1em;
+}
+#sel-form label, #sel-form select, #sel-form input[type=submit] {
+  box-sizing: padding-box;
+  width: 100%;
+}
+#sel-form select {
+  padding: 5px;
+  margin: 10px 0;
+}
+#sel-form input[type=submit] {
+  background: #3568ba;
+  border: 0;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+}

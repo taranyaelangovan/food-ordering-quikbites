@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <title></title>
+    </title>
+    <script src="3b-demo.js"></script>
+   <style>
+    label{
+            font-size: x-large;
+        }
+     button{
+      font-family: 'Muli';
+      height: 60px;
+    }
+    select{
+      font-size: smaller;
+      background: transparent;
+      line-height: 1;
+      border: 0;
+      padding: 0;
+      border-radius: 0;
+      width: 150px;
+      position: relative;
+      z-index: 10;
+    }
+   </style>
+  </head>
+  <body>
+    <div style="height: max-content; width:300px; padding-top: 20px; padding-left: 20px; padding-right: 20px;" >
+    <h1>Hi!
+    </h1>
+    <form id="sel-form" onsubmit="return false;" style="font-size: 22px; ">
+        <table style="text-align: left;">
+          <tr>
+            <td>
+              <label for="sel-country">City: </label>
+            </td>
+            <td>
+              <select name="select" id="sel-country"></select>
+            </td>
+           </tr>
+           <tr>  
+            <td>
+              <label for="sel-state">Area: </label>
+            </td>
+            <td>
+              <select name="select" id="sel-state"></select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="sel-city">Restaurant: </label>
+            </td>
+            <td>
+              <select name="select" id="sel-city"></select>
+            </td>
+          </tr>
+        </table>
+        <br/>
+        <input class="button button1" type="submit" value="Go"/>
+    </form>
+    </div>
+  </body>
+</html>

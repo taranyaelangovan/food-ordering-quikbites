@@ -1,0 +1,51 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <style>
+        label{
+            font-size: x-large;
+        }
+        div { 
+    animation: fadeInAnimation ease-in 1s;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+} 
+  
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Login Here!</h1>
+        <form action="verify.php">
+            <table>
+            <tr>
+                <td>
+                    <label for="username">Username:</label>
+                </td>
+                <td>
+                    <input type="text" name="user" id="username">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Password:</label>
+                </td>
+                <td>
+                    <input type="password" name="pass" id="password">
+                </td>
+            </tr>
+            </table>
+            <br/>
+            <input class="button button1" type="submit" value="Login">
+        </form>
+    </div>
+</body>
+</html>

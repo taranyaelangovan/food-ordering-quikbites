@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+@import url('https://fonts.googleapis.com/css?family=Actor');
+@import url('https://fonts.googleapis.com/css?family=Crafty+Girls');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+header{
+    background-color: rgb(119, 35, 84);
+    font-family: Sofia;
+    padding: 20px;
+    width:
+    text-align: left;
+    font-size: 35px;
+    color: aliceblue;
+}
+
+.sidenav {
+  height: 581px; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.section {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.section{
+    background-color:rgb(255, 206, 235);
+    align-self: flex-end;
+    height: 540px;
+    z-index: 1; 
+    top: 0;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+h1{
+    font-family: 'Sofia', cursive;
+}
+
+h2{
+  font-family: 'Sacramento', cursive;
+}
+
+h3{
+  font-family: 'Muli', cursive;
+}
+
+h4{
+    font-family: 'Sofia', cursive;
+}
+
+
+table,th
+{
+    font-size: large;
+}
+
+body {
+    background-image: url("img4.jpg");
+   font-family: 'Muli';
+   font-size: 22px;
+  }
+  div1 {
+    background-color:rgba(131, 1, 95, 0.7); 
+    width: fit-content;
+    height: fit-content;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);;
+  }
+ .button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  width: 125px;
+  height: 50px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+
+  background-color: white; 
+  color: black; 
+  border: 2px solid rgb(255, 236, 0);
+}
+
+.button1:hover {
+  background-color: rgb(255, 236, 0);
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid rgb(255, 145, 0);
+}
+
+.button2:hover {
+  background-color: rgb(255, 145, 0);
+  color: white;
+}
+
+.button3 {
+
+  width: 250px;
+  background-color: white; 
+  color: black; 
+  border: 2px solid rgb(255, 20, 0);
+}
+
+.button3:hover {
+  background-color: rgb(255, 20, 0);
+  color: white;
+}
